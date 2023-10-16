@@ -5,9 +5,118 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(136, 198, 11);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+
+
+.form-row{
+   margin-top: 30px;
+   margin-left: 1rem;
+   font-size: 20px;
+  }
+
+.head{
+  color: white;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+#item{
+ background-color: rgb(42, 126, 143);
+  width: 22rem;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 3.4px;
+  outline:  rgb(42, 126, 143);
+  color: white;
+  cursor: pointer;
+
+}
+
+.btn{
+  margin-left: 2rem; 
+  background-color: rgb(42, 126, 143);
+  width: 20rem;
+  margin-top: 9px;
+  padding: 2.6px;
+  color: rgb(31, 208, 155);
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.header{
+  margin-left: 100px;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin-top: 15px;
+}
+
+.btn2{
+  margin-left: 10px;
+  padding: 4px;
+  width: 3.4rem;
+  color: red;
+  background-color:#aaa;
+  border: 1px solid red; 
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn3{
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 4px;
+  width: 3.4rem;
+  color: red;
+  background-color:#aaa;
+  border: 1px solid red; 
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 360px) {
+
+.form-row{
+  margin-top: 10px;
+  margin-left: 10px;
+ }
+
+ #item{
+  background-color: rgb(42, 126, 143);
+  width: 20.5rem;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 3.4px;
+  outline:  rgb(42, 126, 143);
+  color: white;
+  cursor: pointer;
+} 
+
+.btn{
+  margin-left: 3rem; 
+  background-color: rgb(42, 126, 143);
+  width: 16rem;
+  margin-top: 9px;
+  padding: 2.6px;
+  color: rgb(31, 208, 155);
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 }
